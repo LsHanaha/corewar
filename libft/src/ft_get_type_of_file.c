@@ -18,7 +18,7 @@ int		ft_get_type_of_file(char *file_name, char *needle)
 {
 	int		i;
 	int		j;
-	char	*file_type;
+	char		*file_type;
 
 	if (!file_name || !needle)
 		return (0);
